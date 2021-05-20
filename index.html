@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Superhero</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="fabric.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body class="body_background">
+
+	<center>
+
+	<h2 class="btn-success">SUPERHERO</h2>
+	<br>
+	<p>
+            
+		<button class="btn btn-success" type="button" data-toggle="collapse" data-target="#collapseExample">
+		  INSTRUCTIONS
+		</button>
+	  </p>
+	  <div class="collapse" id="collapseExample" >
+		<div style="background-color:goldenrod;width: 1000px;height: 50px;padding-top: 12px;color: honeydew;" >
+		 F - Face, &nbsp; B - Body, &nbsp; R - Right Hand,&nbsp; L - Left Hand,&nbsp; K - Knees,&nbsp; Up - Player Up,&nbsp; Down - Player Down,&nbsp;  Right - Player Right,&nbsp; Left - Player Left 
+		</div>
+	  </div>
+
+	  <br>
+
+	<div id="head_info" class="btn-success">
+		<h3>Current Width  = <span id="cw">30</span></h3>
+		<h3>Current Height  =<span id="ch">30</span> </h3>
+	</div>
+
+	<canvas id="mycanvas" width="800" height="600"></canvas>
+
+	</center>
+	<script src="script.js"></script>
+</body>
+</html>
